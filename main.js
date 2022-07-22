@@ -56,8 +56,8 @@ $(document).ready(function() {
                             </div>
                             <hr class="my-3">
                             <div class="d-flex justify-content-end">
-                                <a class="btn mx-2" href="` + d.url_audio + `" target="_blank"><i class="ri-download-line"></i> Audio</a>
-                                <a class="btn mx-1" href="` + d.url_video + `" target="_blank"><i class="ri-download-line"></i> Video</a>
+                                <a class="btn mx-2" download="" href="` + d.url_audio + `" target="_blank"><i class="ri-download-line"></i> Audio</a>
+                                <a class="btn mx-1" download="" href="` + d.url_video + `" target="_blank"><i class="ri-download-line"></i> Video</a>
                             </div>
                         `)
                     })
